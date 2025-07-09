@@ -1,0 +1,43 @@
+Center the app content
+.App {
+  text-align: center;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Style for the connect MetaMask button */
+.connect-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.connect-button:hover {
+  background-color: #0056b3;
+}
+
+/* Message styles */
+.message {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Container for login/signup pages */
+.auth-container {
+  width: 350px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
